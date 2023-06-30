@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="top" style="flex-direction: row; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px;">
+        <ui:TextField picking-mode="Ignore" label="File:" value="filler text" name="textFilePath" readonly="true" style="flex-grow: 1; flex-basis: auto; justify-content: flex-start; flex-shrink: 0;" />
+        <ui:Button text="Select" display-tooltip-when-elided="true" name="btnSelect" style="width: 80px; background-color: rgb(34, 164, 0);" />
+    </ui:VisualElement>
+    <ui:VisualElement name="bottom" style="margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; flex-grow: 1; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; align-items: stretch;">
+        <ui:Button text="Export Xml" display-tooltip-when-elided="true" name="btnExportXml" style="width: 150px; height: 24px;" />
+        <ui:Button text="Export Json" display-tooltip-when-elided="true" name="btnExportJson" style="width: 150px; height: 24px;" />
+        <ui:Button text="Export Csv" display-tooltip-when-elided="true" name="btnExportCsv" style="width: 150px; height: 24px;" />
+    </ui:VisualElement>
+</ui:UXML>
